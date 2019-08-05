@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">План задач</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_btn">Добавить</string>
+    <string name="new_task_hint">Новая задача&#8230;</string>
+    <string name="no_task">Укажите задачу!</string>
+    <string name="undo_status">Отмена</string>
+    <string name="done_status">Сделано</string>
+</resources>

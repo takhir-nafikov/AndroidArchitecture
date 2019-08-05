@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="addTask"
+            type="com.example.mvvm.model.TaskAdd" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="ua.kh.em.appc.MainActivity">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="350dp"
+            android:layout_height="450dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true" />
+
+        <EditText
+            android:id="@+id/edit_new_item"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/add_item_button"
+            android:text="@{addTask.input}"
+            android:hint="@string/new_task_hint" />
+
+        <Button
+            android:id="@+id/add_item_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorWhite"
+            android:layout_alignEnd="@+id/recycler_view"
+            android:layout_alignParentBottom="true"
+            android:text="@string/add_btn" />
+
+    </RelativeLayout>
+</layout>
