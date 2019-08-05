@@ -1,1 +1,1 @@
-include ':MVP', ':MVVM', ':AAC'
+include ':MVP', ':MVVM', ':AAC', ':MVP_Server'
