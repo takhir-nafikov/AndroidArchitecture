@@ -30,7 +30,7 @@ public class FlowersAdapter extends RecyclerView.Adapter<FlowersAdapter.FlowersV
     @Override
     public void onBindViewHolder(FlowersAdapter.FlowersViewHolder holder, int position) {
         ItemFlowersBinding binding = holder.binding;
-        // TODO 
+        // TODO
         //binding.setItem(new FlowersViewModel(flowers.get(position)));
     }
 
