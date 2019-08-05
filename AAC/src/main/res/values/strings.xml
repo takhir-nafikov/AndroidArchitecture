@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">План задач</string>
+
+    <string name="hint_title">Задача&#8230;</string>
+    <string name="hint_desc">Описание&#8230;</string>
+
+    <string name="item_task_title">Задача</string>
+    <string name="item_task_desc">Описание задачи</string>
+
+    <string name="input_error">Что-то не так</string>
+</resources>
